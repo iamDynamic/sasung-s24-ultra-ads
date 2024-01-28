@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+header .ImageContainer img{
+    width: 200px;
+}
+header .center{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+header .center a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 1px;
+}
+header .center a:hover{
+    text-decoration: underline;
+}
+header .end{
+    display: flex;
+    margin-top: -6px;
+    margin-left: 100px;
+}
+header .end a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 6px;
+    font-weight: bolder;
+}
+header .end a:hover{
+    text-decoration: underline;
+}
+header .end img{
+
+    cursor: pointer;
+    margin-left: 40px;
+}
+header .end .image{
+    margin-top: 20px;
+}
+main{
+    height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+}
+main .left {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+main .left p{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+main .left button{
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px;
+    text-transform: capitalize;
+}
+main .right{
+    margin-left: 100px;
+    margin-top: 130px;
+}
+main .right img{
+    width: 600px;
+}
+/* dark */
+.dark{
+    background-color: #000;
+    color: #fff;
+}
+article{
+    display: flex;
+}
+article img,article div{
+    margin-top: 100px;
+}
+article div{
+    text-transform: capitalize;
+    margin-left:70px;
+    margin-top: 130px;
+}
+article div h1{
+    margin-top: 40px;
+}
+article div p{
+    margin-top: 20px;
+}
+article img{
+    margin-left: 200px;
+}
+section{
+    margin-left: 200px;
+    display: flex;
+    margin-top: 60px;
+}
+section .text{
+    margin-top: 60px;
+}
+section .text p{
+    margin-top: 20px;
+}
+section .image img{
+    margin-left: 200px;
+}
+footer{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 200px;
+}
+footer img{
+    margin-left: 230px;
+}
+footer div h1{
+    margin-top: 80px;
+}
+footer div p{
+    margin-top: 20px;
+}
